@@ -15,6 +15,11 @@
 
 def josephus_task(num_people, kill_num):
     # Здесь нужно написать код
+     """
+    Функция принимает на вход количество человек в кругу
+    и число, которое указывает кого выводить по счёту следующим из круга, начиная с первого
+    и выводит номер оставшийся последним
+    """
     people = [i for i in range(1, num_people+1)]
     while len(people) > 1:
         for a in range(0, kill_num-1):
@@ -22,7 +27,7 @@ def josephus_task(num_people, kill_num):
         del people[:kill_num]
     survivor = people[0]
     return survivor
-
+help(josephus_task)
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
