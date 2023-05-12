@@ -9,10 +9,6 @@ def which_triangle(a, b, c):
     """
     Функция принимает на вход длины трёх сторон треугольника
     и выводит тип треугольника
-    :param a:
-    :param b:
-    :param c:
-    :return: type_triangle
     """
     if a == b and b == c:
         type_triangle = "Равносторонний"
