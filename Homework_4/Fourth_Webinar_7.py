@@ -4,6 +4,10 @@
 
 def move_zeros(lst):
     # Здесь нужно написать код
+    """Функция принимает список,
+    перемещает все нули списка в конец,
+    сохраняя порядок остальных элементов
+    и выводит получившийся список"""
     lst_new = []
     lst_final = []
     for i in range(len(lst)):
@@ -13,8 +17,7 @@ def move_zeros(lst):
             lst_final.append(lst[i])
     lst = lst_final + lst_new
     return lst
-
-
+help(move_zeros)
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 
