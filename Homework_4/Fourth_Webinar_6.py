@@ -5,6 +5,8 @@
 
 def create_phone_number(num_tuple):
     # Здесь нужно написать код
+    """Функция принимает кортеж из 10 цифр
+    и возвращает строку этих чисел в виде номера телефона"""
     str_phone = "("
     for i in num_tuple:
         if len(str_phone) == 4:
@@ -13,7 +15,7 @@ def create_phone_number(num_tuple):
             str_phone += "-"
         str_phone += str(i)
     return str_phone
-
+help(create_phone_number)
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 
