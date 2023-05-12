@@ -6,6 +6,14 @@
 
 def which_triangle(a, b, c):
     # Здесь нужно написать код
+    """
+    Функция принимает на вход длины трёх сторон треугольника
+    и выводит тип треугольника
+    :param a:
+    :param b:
+    :param c:
+    :return: type_triangle
+    """
     if a == b and b == c:
         type_triangle = "Равносторонний"
     elif (a == b and b != c) or (b == c and a !=b) or (c == a and a!=b):
