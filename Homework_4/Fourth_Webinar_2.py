@@ -10,8 +10,6 @@ def flatten_and_sort(array):
     """
     Функция принимает на вход двумерый массив (список списков)
     и возвращает список со всеми числами в порядке возрастания
-    :param array:
-    :return: result_list
     """
     result_list = []
     for element in array:
