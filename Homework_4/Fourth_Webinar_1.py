@@ -23,7 +23,7 @@ def which_triangle(a, b, c):
     else:
         type_triangle = "Не треугольник"
     return type_triangle
-
+help(which_triangle)
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 
