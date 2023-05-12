@@ -11,8 +11,6 @@ def sum_digits(num):
     """
     Функция принимает на вход положительное число
     и возвращает сумму чисел
-    :param num:
-    :return: our_sum
     """
     our_sum = 0
     while num != 0:
