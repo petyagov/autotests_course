@@ -7,13 +7,19 @@
 
 def flatten_and_sort(array):
     # Здесь нужно написать код
+    """
+    Функция принимает на вход двумерый массив (список списков)
+    и возвращает список со всеми числами в порядке возрастания
+    :param array:
+    :return: result_list
+    """
     result_list = []
     for element in array:
         for numbers in element:
             result_list.append(numbers)
     result_list = sorted(result_list)
     return result_list
-
+help(flatten_and_sort)
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 
