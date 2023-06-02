@@ -47,7 +47,7 @@ class Segment:
         Функция определяет пересечение объекта с осью Y
         :return: True, если отрезок пересекает ось Y, иначе False
         """
-        if self.y1 >= 0 >= self.y2 or self.y2 >= 0 >= self.y2:
+        if self.y1 >= 0 >= self.y2 or self.y2 >= 0 >= self.y1:
             return True
         else:
             return False
