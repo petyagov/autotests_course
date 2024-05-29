@@ -11,5 +11,3 @@ import pytest
 ])
 def test_division_parametrize(num1, num2, result):
     assert all_division(num1, num2) == result
-
-    # текст
