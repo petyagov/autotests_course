@@ -20,6 +20,7 @@ def all_division(*arg1):
 def test_all_division_positive():
     assert all_division(10, 2, 2) == 2.5
 
+# Тест на отрицательные числа
 @pytest.mark.smoke
 def test_all_division_negative_numbers():
     assert all_division(-10, 2, -5) == 1
