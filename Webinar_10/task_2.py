@@ -8,7 +8,6 @@
 
 import pytest
 
-
 def all_division(*arg1):
 
     division = arg1[0]
@@ -17,7 +16,7 @@ def all_division(*arg1):
     return division
 
 # Тест на положительные числа
-def test_all_division_positive():
+def test_all_division_positive_numbers():
     assert all_division(10, 2, 2) == 2.5
 
 # Тест на отрицательные числа

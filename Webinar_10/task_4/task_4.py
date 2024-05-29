@@ -3,16 +3,16 @@
 # 2) Фикстуру для конкретного теста и используйте её не для всех тестов. Например, время выполнения теста.
 
 class TestClass:
-    def test_case_1(self, session_fixture, test_fixture):
+    def test_case_1(self, class_fixture, test_fixture):
         """
         Проверяет первый тестовый случай.
         """
-        assert 1 == 1
+        assert True
         print("Выполнение первого тестового случая")
 
     def test_case_2(self, test_fixture):
         """
         Проверяет второй тестовый случай.
         """
-        assert 2 == 2
+        assert True
         print("Выполнение второго тестового случая")
